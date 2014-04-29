@@ -20,10 +20,6 @@
 
 						view: '~/App_Plugins/FlexibleList/datasource.html',
 
-						javascript: [
-								
-						],
-
 						validation: [
 							{
 								type: 'Required'
@@ -32,13 +28,19 @@
 					},{
 						label: 'Maximum Selection',
 
-						description: 'Specific how many items can be selected at the maximum',
+						description: 'Specific how many items can be selected at the maximum. Input "0" if no limitation',
 
 						key: 'maximum',
 
-						view: 'number'
+						view: 'number',
+
+						validation: [
+							{
+								type: 'Required'
+							}
+						]
 					}
-				]
+				],
 			},
 		}
 	],

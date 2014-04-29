@@ -72,12 +72,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ChildrenProvider.cs" />
+    <Compile Include="Providers\ChildrenProvider.cs" />
     <Compile Include="Controllers\DatasourceController.cs" />
     <Compile Include="Controllers\ListProdiverController.cs" />
-    <Compile Include="DatasourceProvider.cs" />
+    <Compile Include="Providers\DatasourceProvider.cs" />
     <Compile Include="DatasourceProviderResolver.cs" />
-    <Compile Include="MemberGroupProvider.cs" />
+    <Compile Include="Providers\MemberGroupProvider.cs" />
     <Compile Include="Models\DatasourceItem.cs" />
     <Compile Include="FlexibleListPluginBootManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

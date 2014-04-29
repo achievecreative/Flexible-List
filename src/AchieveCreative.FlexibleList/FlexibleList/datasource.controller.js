@@ -1,5 +1,4 @@
 ﻿angular.module('umbraco').controller('FlexibleList.Datasource.Controller', function ($scope, $http) {
-    console.log($scope.model);
 
     $scope.providers = [];
 
