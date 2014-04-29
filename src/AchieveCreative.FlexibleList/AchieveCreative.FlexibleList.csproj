@@ -72,7 +72,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Providers\ChildrenProvider.cs" />
+    <Compile Include="Providers\ChildNodeProvider.cs" />
     <Compile Include="Controllers\DatasourceController.cs" />
     <Compile Include="Controllers\ListProdiverController.cs" />
     <Compile Include="Providers\DatasourceProvider.cs" />

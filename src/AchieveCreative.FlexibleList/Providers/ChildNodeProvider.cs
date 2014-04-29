@@ -6,11 +6,11 @@ using Umbraco.Core.Models;
 
 namespace AchieveCreative.FlexibleList.Providers
 {
-    public class ChildrenProvider : DatasourceProvider
+    public class ChildNodeProvider : DatasourceProvider
     {
         public override string Name
         {
-            get { return "Children Node Selector"; }
+            get { return "Child Node Selector"; }
         }
 
         public override IEnumerable<DatasourceItem> Query(int currentNodeId, string propertyAlias)
