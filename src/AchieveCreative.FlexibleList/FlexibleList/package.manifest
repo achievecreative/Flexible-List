@@ -1,0 +1,54 @@
+﻿{
+	propertyEditors:[
+		{
+			alias: 'achievecreative.com.flexiblelist',
+
+			name: 'Flexible List',
+
+			editor: {
+				view: '~/App_Plugins/FlexibleList/flexiblelist.html'
+			},
+
+			prevalues:{
+				fields:[
+					{
+						label: 'List Provider',
+
+						description: '',
+
+						key: 'listprovider',
+
+						view: '~/App_Plugins/FlexibleList/datasource.html',
+
+						javascript: [
+								
+						],
+
+						validation: [
+							{
+								type: 'Required'
+							}
+						]
+					},{
+						label: 'Maximum Selection',
+
+						description: 'Specific how many items can be selected at the maximum',
+
+						key: 'maximum',
+
+						view: 'number'
+					}
+				]
+			},
+		}
+	],
+
+	javascript:[
+		'~/App_Plugins/FlexibleList/datasource.controller.js',
+		'~/App_Plugins/FlexibleList/flexiblelist.controller.js'	
+	],
+
+	css:[
+
+	]
+}

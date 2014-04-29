@@ -1,0 +1,7 @@
+﻿<div ng-controller="FlexibleList.Controller">
+    <div ng-repeat="item in items">
+        <div>
+            <label><input type="checkbox" name="{{item.value}}" ng-model="item.checked" value="{{item.value}}" ng-change="change()" />{{item.text}}</label>
+        </div>
+    </div>
+</div>
