@@ -1,4 +1,4 @@
 Flexible-List
 =============
 
-A data type for umbraco 7
+A property editor for umbraco 7
