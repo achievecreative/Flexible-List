@@ -1,4 +1,5 @@
-﻿using Umbraco.Core;
+﻿using AchieveCreative.FlexibleList.Providers;
+using Umbraco.Core;
 using Umbraco.Core.ObjectResolution;
 using Umbraco.Web;
 

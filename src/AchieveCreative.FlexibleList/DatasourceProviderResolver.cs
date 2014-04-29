@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using AchieveCreative.FlexibleList.Providers;
 using Umbraco.Core.ObjectResolution;
 
 namespace AchieveCreative.FlexibleList

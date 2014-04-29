@@ -3,9 +3,8 @@ using System.Linq;
 using AchieveCreative.FlexibleList.Models;
 using Umbraco.Core;
 using Umbraco.Core.Models;
-using Umbraco.Web;
 
-namespace AchieveCreative.FlexibleList
+namespace AchieveCreative.FlexibleList.Providers
 {
     public class ChildrenProvider : DatasourceProvider
     {

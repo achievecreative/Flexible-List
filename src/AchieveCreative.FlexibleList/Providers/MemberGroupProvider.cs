@@ -5,7 +5,7 @@ using System.Web.Security;
 using AchieveCreative.FlexibleList.Models;
 using Umbraco.Core.Logging;
 
-namespace AchieveCreative.FlexibleList
+namespace AchieveCreative.FlexibleList.Providers
 {
     public class MemberGroupProvider : DatasourceProvider
     {
