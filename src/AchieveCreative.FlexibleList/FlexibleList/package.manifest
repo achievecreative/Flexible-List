@@ -20,29 +20,27 @@
 
 						view: '~/App_Plugins/FlexibleList/datasource.html',
 
-						validation: [
-							{
+						validation: [{
 								type: 'Required'
 							}
 						]
 					},{
 						label: 'Maximum Selection',
 
-						description: 'Specific how many items can be selected at the maximum. Input "0" if no limitation',
+						description: 'Specific how many items can be selected at the maximum. Input "0" or leave it blank if no limitation',
 
 						key: 'maximum',
 
-						view: 'number',
+						view: 'textstring',
 
-						validation: [
-							{
-								type: 'Required'
+						validation: [{
+								type: 'Integer'
 							}
 						]
 					},{
 						label: 'Message',
 
-						description: '',
+						description: 'The message to show when no items',
 
 						key: 'message',
 

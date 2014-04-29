@@ -53,7 +53,7 @@
     }
 
     function multiple(index) {
-        if ($scope.items[index].checked) {
+        if ($scope.model.config.maximum != 0 && $scope.items[index].checked) {
             if ($scope.totalSelected() > $scope.model.config.maximum) {
                 $scope.items[index].checked = false;
                 alert("Only able to select " + $scope.model.config.maximum + " item(s) at maximum.");
