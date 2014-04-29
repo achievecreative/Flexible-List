@@ -39,6 +39,14 @@
 								type: 'Required'
 							}
 						]
+					},{
+						label: 'Message',
+
+						description: '',
+
+						key: 'message',
+
+						view: 'textstring'
 					}
 				],
 			},
